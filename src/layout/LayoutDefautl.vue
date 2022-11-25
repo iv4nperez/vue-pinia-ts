@@ -11,7 +11,7 @@
                     <div>Appbar</div>
                     <div>
                         <div class="px-4 py-1 rounded-md cursor-pointer hover:bg-slate-200 select-none relative">
-                            <p class="text-xs">Armando Ivan Perez Chan</p>
+                            <p class="text-xs">Edgar Daniel Vazquez Escobedo</p>
                             <p class="text-[11px] text-[#868585] text-end">Administrador</p>
                         </div>
 

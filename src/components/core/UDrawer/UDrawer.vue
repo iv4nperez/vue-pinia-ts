@@ -41,8 +41,8 @@
                     </figure>
                     </div>
 
-                    <p class="text-white font-medium text-sm">Abbott Keitch</p>
-                    <p class="text-[#83a3ab] font-medium text-[13px]">admin@fusetheme.com</p>
+                    <p class="text-white font-medium text-sm">{{useDash.username}}</p>
+                    <p class="text-[#83a3ab] font-medium text-[13px]">edvazqueze@cotemar.com.mx</p>
                 </div>
 
                 <ul className="px-3 h-full">
@@ -153,6 +153,8 @@
 <script setup lang="ts">
 import RectangleStack from '../../../assets/icons/RectangleStack.vue'
 import BarsIcon from '../../../assets/icons/BarsIcon.vue'
+import { useDashboardStore} from '../../../modules/dashboard/store'
+const useDash=useDashboardStore();
 import { ref } from 'vue';
 
 const showDrawer = ref(true)

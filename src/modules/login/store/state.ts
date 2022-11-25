@@ -10,6 +10,6 @@ export interface Role {
 }
 
 export const state = (): IDashboardState  => ({
-    username: 'edvazqueze',
+    username: 'aiperezc',
     arr: []
 })
