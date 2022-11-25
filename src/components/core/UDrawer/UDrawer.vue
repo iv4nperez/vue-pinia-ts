@@ -163,7 +163,7 @@ const showDrawer = ref(true)
 
 <style scoped>
  .drawer__container{
-    @apply h-screen shrink-0 z-20 bg-[#111827] transition-all  ease-in-out delay-150;
+    @apply h-screen shrink-0 z-20 bg-[#29317d] transition-all  ease-in-out delay-150;
  }
 
 </style>

@@ -122,16 +122,16 @@
 </template>
 <script setup lang="ts">
 import { useDashboardStore} from '../../dashboard/store'
-const useDash=useDashboardStore();
 import  LayoutLogin from '../layouts/LoginLayout.vue'
 import  Bienvenida from '../components/Bienvenida.vue'
 import LogoCenterImage from '../components/LogoCenterImage.vue'
 import { computed, onMounted, ref } from 'vue'
 import {useRouter} from 'vue-router'
+
 const miVariable=ref<boolean>(false);
 
 const router = useRouter();
-
+const useDash=useDashboardStore();
 
 miVariable.value=true;
 // const useDash=useDashboardStore();
@@ -143,7 +143,6 @@ const fnGetMiVaribale =()=>
 const fnLogin = () => {   
     
 // login aqui
-debugger;
 useDash.username="edvazqueze logeado";
 
 router.push("/");
